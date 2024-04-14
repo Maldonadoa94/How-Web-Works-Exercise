@@ -1,0 +1,44 @@
+PART 1: SOLIDIFY TERMINOLOGY
+
+1) HTTP stands for Hypertext Transfer Protocol and acts as the foundation of data communication in the World Wide Web, which 
+   includes for example hypertext documents that include hyperlinks to other resources that a user can easily access.
+
+2) URL stands for Uniform Resource Locator and is a reference to a internet address for a web page or web site. It has 2 main
+   components: the Protocol identifier (i.e. http) and the Resource name (i.e. google.com).
+
+3) DNS stands for Domain Name System and acts like the phonebook of the internet. It turns domain names or websites into IP
+   addresses so browsers can load internet resources. DNS servers eliminate the needfor humans to memorize IP address information.
+
+4) A query string is part of a URL that assigns values to specified parameters to assist with storing data and always follows a "?"
+   within the URL hyperlink.
+
+5) - GET: gets some data from a server through search forms and other methods
+   - POST: sends data to a server (i.e. web pages that change data on a server)
+
+6) An HTTP request is a direct request from the client to a server, such as a browser sending a request to the server to return a
+   response following HTTP protocols.
+
+7) An HTTP response is made by a server to a client to provide it with the requested resource, or to provide information about the
+   action being carried out, or finally to inform the client that there was an error during processing.
+
+8) An HTTP header is a request or response display field that passes additional context and metadata about that request or response.
+   Two examples of headers are shown below:
+
+   - Request URL:                   https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjLh7Kbw8KFAxWtRzABHSpsDBQQPAgJ
+     Request Method:                GET
+     Status Code:                   200 OK
+     Remote Address:                74.125.138.147:443
+     Referrer Policy:               origin
+
+   - Request URL:                   https://www.google.com/search?hl=en&sa=X&ved=0ahUKEwjLh7Kbw8KFAxWtRzABHSpsDBQQPAgJ&q=roll+a+die&csf
+                                    =b&ct=ifl&cad=2:adventurous&ei=yTocZpDOOJOkkPIPn8uVkAs&ved=0ahUKEwjQ1q6AxMKFAxUTEkQIHZ9lBbIQnRsIHw&rct=j
+     Request Method:                GET
+     Status Code:                   200 OK
+     Remote Address:                142.251.15.103:443
+     Referrer Policy:               origin
+
+9) First when the URL is typed, DNS converts it into an IP address. Then a client request is made including headers. The server than responds
+   with a status code. The web page than loads the DOM with all of the resources necessary to include the HTML, CSS, and Javascript using individual
+   HTTP requests and gets responses from the server for each of those resources being loaded.
+
+PART 2, 3, and 4 done separately.
